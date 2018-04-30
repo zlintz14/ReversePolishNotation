@@ -1,0 +1,20 @@
+{
+  "name": "ReversePolishNotation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Zak Lintz",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^9.6.7"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.1.6",
+    "typescript": "^2.8.3"
+  }
+}
