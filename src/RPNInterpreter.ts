@@ -114,16 +114,10 @@ let main = (): void => {
                     default:
                         break
                 }
-            //else we know it is ivalid input or a number
+            //else we know it is a number
             } else {
                 var count = i
                 var temp = ""
-                //see if input is invalid
-                if((RPN[i] !== "+" && RPN[i] !== "-" && RPN[i] !== "*" && RPN[i] !== "/") && isNaN(Number(+RPN[i]))) {
-                    console.log("Please enter a valid form of Reverse Polish Notation.")
-                    main();
-                    break;
-                }  
                 //collect number
                 while(RPN[count] != " "){
                     temp += RPN[count] 
